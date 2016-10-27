@@ -1,0 +1,12 @@
+import Ember from 'ember';
+import PatchSerializer.JsMixin from 'ally-test/mixins/patch-serializer.js';
+import { module, test } from 'qunit';
+
+module('Unit | Mixin | patch serializer.js');
+
+// Replace this with your real tests.
+test('it works', function(assert) {
+  let PatchSerializer.JsObject = Ember.Object.extend(PatchSerializer.JsMixin);
+  let subject = PatchSerializer.JsObject.create();
+  assert.ok(subject);
+});
